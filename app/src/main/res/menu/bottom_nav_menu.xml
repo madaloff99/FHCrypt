@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/showList"
+        android:title="Show Keys"
+        android:icon="@drawable/ic_key"/>
+    <item
+        android:id="@+id/encrypt"
+        android:title="Encrypt Text"
+        android:icon="@drawable/ic_lock"/>
+    <item
+        android:id="@+id/decrypt"
+        android:title="Decrypt Text"
+        android:icon="@drawable/ic_file"/>
+    <item
+        android:id="@+id/statistics"
+        android:title="Show Stats"
+        android:icon="@drawable/ic_analytics"/>
+    <item
+        android:id="@+id/maps"
+        android:title="Show Map"
+        android:icon="@drawable/ic_map"/>
+</menu>

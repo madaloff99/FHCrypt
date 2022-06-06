@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3fff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Select text to decrypt"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="#3fff"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/enc_spin"
+                android:layout_width="127dp"
+                android:layout_height="44dp"
+                android:layout_alignParentRight="true" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/decryptButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Decrypt Text"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_button2"
+            android:textColor="#FFFBF6"/>
+
+        <TextView
+            android:id="@+id/decryptedText"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Decrypted text"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

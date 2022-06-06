@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="FHCrypt"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/user"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColorHint="#FFFBF6"
+            android:background="@drawable/custom_button"
+            />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFBF6" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button2"
+            android:textColor="#FFFBF6"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_button2"
+            android:textColor="#FFFBF6"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
